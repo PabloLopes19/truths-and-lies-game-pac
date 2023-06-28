@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import * as S from "./styles/app";
 import ContentDialog from "./components/ContentDialog";
 
+import * as Progress from "@radix-ui/react-progress";
+
 type question = {
   id: number;
   curiosidade: string;
@@ -41,6 +43,10 @@ export default function App() {
     if (e.key === "ArrowRight") answerQuestion(false);
   };
 
+  const percentage = (current * 100) / questions?.length;
+
+  console.log(percentage);
+
   return (
     <S.Container onKeyDown={handleKeyboardSelect}>
       <S.ControlPanel>
@@ -51,7 +57,6 @@ export default function App() {
           </div>{" "}
           {questions && questions[current].curiosidade}
         </S.Question>
-
         <div>
           <ContentDialog open={modalOpen} changeOpen={setModalOpen} />
           <S.Alternative
@@ -68,6 +73,29 @@ export default function App() {
           </S.Alternative>
         </div>
       </S.ControlPanel>
+
+      <Progress.Root
+        max={100}
+        style={{
+          width: "100%",
+          borderRadius: "500px",
+          maxWidth: 800,
+          display: "flex",
+          justifyContent: "start",
+        }}
+        className="progress"
+        value={40}
+      >
+        <Progress.Indicator
+          style={{
+            left: 0,
+            width: `${percentage}%`,
+            transition: "all 0.2s ease-out",
+            borderRadius: "500px",
+          }}
+          className="progBar"
+        />
+      </Progress.Root>
     </S.Container>
   );
 }

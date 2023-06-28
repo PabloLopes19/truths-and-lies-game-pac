@@ -12,7 +12,7 @@ export const Container = Styled.div`
     flex-direction: column;
     flex: 1; 
     height: 100vh;
-    gap: 3rem;
+    gap: 1rem;
     font-weight: bold;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,16 @@ export const Container = Styled.div`
         width: 50%;
         gap: 1rem;
         background: #333;   
+    }
+
+    .progress{
+        height: 25px;
+        background: ${colors.questionBackground};
+    }
+
+    .progBar{
+        height: 25px;
+        background: ${colors.buttonColor};
     }
 `;
 
@@ -87,6 +97,8 @@ export const Alternative = Styled.button`
 export const ControlPanel = Styled.button`
     background: transparent;
     border: none;
+    width: 100%;
+    max-width: 800px;
 
     & > div {
         display: flex;
