@@ -1,7 +1,10 @@
 import "./styles/global.css";
 
 import data from "./data.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+import * as S from "./styles/app";
+import ContentDialog from "./components/ContentDialog";
 
 type question = {
   id: number;
@@ -9,25 +12,29 @@ type question = {
   verdadeiro: boolean;
 };
 
-import * as S from "./styles/app";
-
 export default function App() {
-  const questions = data.sort(() => 0.5 - Math.random());
+  const [questions, setQuestions] = useState<question[] | null>(null);
 
   const [current, setCurrent] = useState<number>(0);
   const [score, setScore] = useState(0);
 
+  const [modalOpen, setModalOpen] = useState(true);
+
   function answerQuestion(ans: boolean) {
-    if (questions[current].verdadeiro == ans) {
-      alert("Acertou!");
-      setScore(score + 10);
-      setCurrent(current + 1);
-    } else {
-      alert("Errou!");
-      setCurrent(0);
-      setScore(0);
-    }
+    if (questions)
+      if (questions[current].verdadeiro == ans) {
+        // eslint-disable-next-line
+        alert("Acertou!");
+        setScore(score + 10);
+        setCurrent(current + 1);
+      } else {
+        alert("Errou!");
+        setCurrent(0);
+        setScore(0);
+      }
   }
+
+  useEffect(() => setQuestions(data.sort(() => 0.5 - Math.random())), []);
 
   const handleKeyboardSelect = (e: any) => {
     if (e.key === "ArrowLeft") answerQuestion(true);
@@ -42,10 +49,11 @@ export default function App() {
             <span>Questão: {current + 1}</span>
             <span>Pontuação: {score}</span>
           </div>{" "}
-          {questions[current].curiosidade}
+          {questions && questions[current].curiosidade}
         </S.Question>
 
         <div>
+          <ContentDialog open={modalOpen} changeOpen={setModalOpen} />
           <S.Alternative
             onClick={() => answerQuestion(true)}
             style={{ borderBottomLeftRadius: "12px" }}
