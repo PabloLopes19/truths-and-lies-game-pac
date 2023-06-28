@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "curiosidade": "A estrela mais próxima da Terra é a Alfa Centauri.",
+    "verdadeiro": false
+  },
+  {
+    "id": 2,
+    "curiosidade": "A planta Carnívora de Vênus é nativa da Amazônia.",
+    "verdadeiro": false
+  },
+  {
+    "id": 3,
+    "curiosidade": "O Monte Everest é a montanha mais alta do sistema solar.",
+    "verdadeiro": false
+  },
+  {
+    "id": 4,
+    "curiosidade": "O maior animal que já existiu foi a baleia-azul.",
+    "verdadeiro": true
+  },
+  {
+    "id": 5,
+    "curiosidade": "O Rio Amazonas é o rio mais longo do mundo.",
+    "verdadeiro": false
+  },
+  {
+    "id": 6,
+    "curiosidade": "O Japão é formado por mais de 6.000 ilhas.",
+    "verdadeiro": true
+  },
+  {
+    "id": 7,
+    "curiosidade": "O dinossauro T-Rex viveu no período Jurássico.",
+    "verdadeiro": false
+  },
+  {
+    "id": 8,
+    "curiosidade": "A Muralha da China é visível da Lua.",
+    "verdadeiro": false
+  },
+  {
+    "id": 9,
+    "curiosidade": "O Continente Africano é atravessado pelo Trópico de Capricórnio.",
+    "verdadeiro": false
+  },
+  {
+    "id": 10,
+    "curiosidade": "O menor país do mundo em área territorial é Mônaco.",
+    "verdadeiro": true
+  },
+  {
+    "id": 11,
+    "curiosidade": "A Grande Barreira de Coral pode ser vista do espaço.",
+    "verdadeiro": true
+  },
+  {
+    "id": 12,
+    "curiosidade": "Os cangurus são marsupiais encontrados apenas na América do Sul.",
+    "verdadeiro": false
+  },
+  {
+    "id": 13,
+    "curiosidade": "O idioma mais falado no mundo é o mandarim.",
+    "verdadeiro": true
+  },
+  {
+    "id": 14,
+    "curiosidade": "A dança do Tango originou-se na Espanha.",
+    "verdadeiro": false
+  },
+  {
+    "id": 15,
+    "curiosidade": "A Torre Eiffel foi projetada por Gustave Eiffel.",
+    "verdadeiro": true
+  },
+  {
+    "id": 16,
+    "curiosidade": "O maior oceano do mundo é o Oceano Atlântico.",
+    "verdadeiro": false
+  },
+  {
+    "id": 17,
+    "curiosidade": "O DNA humano possui cerca de 2 metros de comprimento em cada célula.",
+    "verdadeiro": true
+  },
+  {
+    "id": 18,
+    "curiosidade": "O deserto do Saara é o maior deserto do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 19,
+    "curiosidade": "A Estátua da Liberdade foi um presente da França para os Estados Unidos.",
+    "verdadeiro": true
+  },
+  {
+    "id": 20,
+    "curiosidade": "A cidade de Roma foi fundada no século I a.C.",
+    "verdadeiro": false
+  },
+  {
+    "id": 21,
+    "curiosidade": "A linguagem de programação Python foi nomeada em homenagem à cobra.",
+    "verdadeiro": true
+  },
+  {
+    "id": 22,
+    "curiosidade": "A Floresta Amazônica é a maior floresta tropical do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 23,
+    "curiosidade": "A Estátua da Liberdade está localizada em Nova Iorque.",
+    "verdadeiro": true
+  },
+  {
+    "id": 24,
+    "curiosidade": "O gato doméstico é descendente direto do leão.",
+    "verdadeiro": false
+  },
+  {
+    "id": 25,
+    "curiosidade": "O Google foi fundado em 1996.",
+    "verdadeiro": false
+  },
+  {
+    "id": 26,
+    "curiosidade": "A Grande Muralha da China foi construída no século XV.",
+    "verdadeiro": false
+  },
+  {
+    "id": 27,
+    "curiosidade": "A lua Europa, uma das luas de Júpiter, possui um oceano subterrâneo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 28,
+    "curiosidade": "A África é o continente com maior número de países.",
+    "verdadeiro": true
+  },
+  {
+    "id": 29,
+    "curiosidade": "O tigre é o maior felino do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 30,
+    "curiosidade": "O deserto do Atacama é o deserto mais seco do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 31,
+    "curiosidade": "O filme 'O Poderoso Chefão' ganhou 10 Oscars.",
+    "verdadeiro": false
+  },
+  {
+    "id": 32,
+    "curiosidade": "O planeta Urano é conhecido como o gigante gasoso.",
+    "verdadeiro": true
+  },
+  {
+    "id": 33,
+    "curiosidade": "A Mona Lisa foi pintada por Vincent van Gogh.",
+    "verdadeiro": false
+  },
+  {
+    "id": 34,
+    "curiosidade": "O diamante é a pedra preciosa mais rara do mundo.",
+    "verdadeiro": false
+  },
+  {
+    "id": 35,
+    "curiosidade": "A música 'Stairway to Heaven' da banda Led Zeppelin possui mais de 10 minutos de duração.",
+    "verdadeiro": true
+  },
+  {
+    "id": 36,
+    "curiosidade": "A cidade de Nova Iorque é conhecida como a 'Big Apple'.",
+    "verdadeiro": true
+  },
+  {
+    "id": 37,
+    "curiosidade": "O refrigerante Coca-Cola foi inventado em 1892.",
+    "verdadeiro": false
+  },
+  {
+    "id": 38,
+    "curiosidade": "O atleta Usain Bolt é o recordista mundial nos 100 metros rasos.",
+    "verdadeiro": true
+  },
+  {
+    "id": 39,
+    "curiosidade": "A capital do Canadá é Toronto.",
+    "verdadeiro": false
+  },
+  {
+    "id": 40,
+    "curiosidade": "O Taj Mahal é uma das Sete Maravilhas do Mundo Moderno.",
+    "verdadeiro": true
+  },
+  {
+    "id": 41,
+    "curiosidade": "O tango é uma dança originária do Brasil.",
+    "verdadeiro": false
+  },
+  {
+    "id": 42,
+    "curiosidade": "A linguagem de programação Java foi lançada em 1995.",
+    "verdadeiro": true
+  },
+  {
+    "id": 43,
+    "curiosidade": "O pinguim é uma ave que voa.",
+    "verdadeiro": false
+  },
+  {
+    "id": 44,
+    "curiosidade": "O microscópio foi inventado por Isaac Newton.",
+    "verdadeiro": false
+  },
+  {
+    "id": 45,
+    "curiosidade": "A Mona Lisa é exibida no Museu do Louvre, em Paris.",
+    "verdadeiro": true
+  },
+  {
+    "id": 46,
+    "curiosidade": "Oceano Pacífico é o maior oceano do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 47,
+    "curiosidade": "A Amazônia é a maior bacia hidrográfica do mundo.",
+    "verdadeiro": true
+  },
+  {
+    "id": 48,
+    "curiosidade": "A Estátua da Liberdade é feita de cobre.",
+    "verdadeiro": true
+  },
+  {
+    "id": 49,
+    "curiosidade": "O filme 'O Senhor dos Anéis: O Retorno do Rei' ganhou 11 Oscars.",
+    "verdadeiro": true
+  },
+  {
+    "id": 50,
+    "curiosidade": "A Grande Muralha da China tem mais de 20.000 quilômetros de extensão.",
+    "verdadeiro": true
+  }
+]
